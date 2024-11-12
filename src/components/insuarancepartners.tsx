@@ -7,7 +7,7 @@ const insurancePartners = [
   { name: "Jubilee insurance", logo: "/images/jubilee-logo.png" },
   { name: "Sanlam", logo: "https://www.sanlam.com/images/sanlam-logo.png" },
   { name: "Prudential", logo: "/images/prudential.png" },
-  { name: "APA", logo: "	https://www.sanlam.com/images/apa-logo.png" },
+  { name: "APA", logo: "/images/apa-logo.png" },
   { name: "CIGNA", logo: "https://image2.comms.cigna.com/EloquaImages/clients/CignaGHBIntl/%7B7177abb9-7e77-4ddd-bbbb-6f8fee021d59%7D_cigna-healthcare-logo.png" },
   { name: "YOPSA", logo: "https://yopsa.co.ug/wp-content/uploads/2023/08/image001.png" },
 ];
