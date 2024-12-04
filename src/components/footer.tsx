@@ -1,5 +1,7 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Mail, Phone } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
+import { FaXTwitter } from "react-icons/fa6";
+import { FiFacebook, FiInstagram } from "react-icons/fi";
 import Link from 'next/link';
 
 
@@ -68,21 +70,21 @@ const Footer = () => {
           className="text-white hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 rounded"
           aria-label="Facebook"
         >
-          <Facebook className="w-6 h-6" />
+          <FiFacebook className="w-6 h-6" />
         </a>
         <a
           href="#"
           className="text-white hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 rounded"
           aria-label="Twitter"
         >
-          <Twitter className="w-6 h-6" />
+          <FaXTwitter className="w-6 h-6" />
         </a>
         <a
           href="#"
           className="text-white hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 rounded"
           aria-label="Instagram"
         >
-          <Instagram className="w-6 h-6" />
+          <FiInstagram className="w-6 h-6" />
         </a>
       </div>
 

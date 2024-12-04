@@ -1,8 +1,11 @@
 "use client"; // Ensures the component is treated as a Client Component
 
 import React, { useState } from 'react';
-import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Instagram } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { ToastContainer, toast } from 'react-toastify';
+import { FaWhatsapp } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FiFacebook, FiInstagram } from "react-icons/fi";
 import 'react-toastify/dist/ReactToastify.css'; // Import the CSS
 
 const Contact = () => {
@@ -43,23 +46,31 @@ const Contact = () => {
             <div>
               <h3 className="text-xl font-bold text-gray-700 mb-4">Get in Touch</h3>
               <p className="text-lg text-gray-600 mb-4 flex items-center">
-                <MapPin className="mr-2 text-blue-600" />
+                <MapPin size={25} className="mr-2 text-blue-600" />
                 Great Lakes International Hospital, P.O. Box 909, Fort Portal
               </p>
               <p className="text-lg text-gray-600 mb-4 flex items-center">
-                <Phone className="mr-2 text-blue-600" />
+                <Phone size={25}  className="mr-2 text-blue-600" />
                 <a href="tel:+256705627072" className="underline hover:text-blue-600">Mob: +256 (0)705 627 072</a>, <a href="tel:+256778399055" className="underline hover:text-blue-600">+256 (0)778 399 055</a>
               </p>
               <p className="text-lg text-gray-600 mb-4 flex items-center">
-                <Mail className="mr-2 text-blue-600" />
+                <Mail size={25}  className="mr-2 text-blue-600" />
                 <a href="mailto:greatlakesinternationalhospita@gmail.com" target='_blank' className="underline hover:text-blue-600">greatlakesinternationalhospita@gmail.com</a>
               </p>
               <p className="text-lg text-gray-600 mb-4 flex items-center">
-                <Phone className="mr-2 text-blue-600" />
-                <a href="tel:+256778399055" className="underline hover:text-blue-600">Whatsapp: +256 (0)778 399 055</a>
+                <FaWhatsapp size={25} className="mr-2 text-blue-600" />
+                <a 
+                  href="https://wa.me/256778399055" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="underline hover:text-blue-600"
+                >
+                  WhatsApp: +256 (0)778 399 055
+                </a>
               </p>
+
               <p className="text-lg text-gray-600 mb-4 flex items-center">
-                <Clock className="mr-2 text-blue-600" />
+                <Clock size={25}  className="mr-2 text-blue-600" />
                 Open: 24/7 for both Out Patient and In-Patient Services
               </p>
 
@@ -68,13 +79,13 @@ const Contact = () => {
             <h3 className="text-xl font-bold text-gray-700 mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a href="#" className="text-blue-600 hover:text-blue-800" aria-label="Facebook">
-                <Facebook size={32} />
+                <FiFacebook size={32} />
               </a>
               <a href="#" className="text-blue-600 hover:text-blue-800" aria-label="Twitter">
-                <Twitter size={32} />
+                <FaXTwitter size={32} />
               </a>
               <a href="#" className="text-blue-600 hover:text-blue-800" aria-label="Instagram">
-                <Instagram size={32} />
+                <FiInstagram size={32} />
               </a>
             </div>
           </div>
