@@ -33,7 +33,7 @@ const Header = () => {
           </p>
 
           {/* Action Buttons */}
-          <div className="flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
+          <div className="flex tablet:flex-row lg:flex-row mt-14 flex-col md:flex-row gap-4 justify-center lg:justify-start">
             <button 
               onClick={toggleModal} 
               className="bg-white text-blue-600 px-4 py-2 rounded-full font-semibold transition-all transform hover:scale-105 hover:bg-blue-100"
@@ -41,7 +41,7 @@ const Header = () => {
               Book Appointment
             </button>
             <button 
-              className="text-blue-600 border border-blue-600 rounded-lg w-[200px] h-[50px] font-bold transition-all transform hover:bg-blue-600 hover:text-white hover:scale-105"
+              className="text-blue-600 border border-blue-600 w-auto sm:w-auto px-4 py-2 rounded-lg font-bold transition-all transform hover:bg-blue-600 hover:text-white hover:scale-105"
             >
               <Link href="#contact">Contact Us</Link>
             </button>
