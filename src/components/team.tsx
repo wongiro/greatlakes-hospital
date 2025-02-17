@@ -75,6 +75,13 @@ const teamMembers: TeamMember[] = [
     image: '/images/team/everest.jpeg',
     detailedInfo: 'Everest provides information to patients about the drugs and their use.',
   },
+  {
+    name: 'Lab Technician',
+    title: 'Lab Technician',
+    description: "Conducts laboratory tests, analyzes samples, and provides critical data to assist in patient diagnosis and treatment. Educates healthcare professionals and the public about laboratory procedures and their role in health care.",
+    image: '/images/team/labTech.jpeg',
+    detailedInfo: 'Conducts laboratory tests and procedures to analyze samples.',
+  },
 ];
 
 const ITEMS_PER_PAGE = 3; 

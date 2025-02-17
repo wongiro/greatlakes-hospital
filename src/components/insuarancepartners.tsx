@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const insurancePartners = [
-  { name: "AAR", logo: "https://aar-healthcare.com/ug/wp-content/uploads/2017/02/aarlogonew.png" },
+  { name: "AAR", logo: "/images/aarlogonew2.png" },
   { name: "Jubilee insurance", logo: "/images/jubilee-logo.png" },
   { name: "Sanlam", logo: "https://www.sanlam.com/images/sanlam-logo.png" },
   { name: "Prudential", logo: "/images/prudential.png" },
