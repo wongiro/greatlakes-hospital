@@ -24,10 +24,11 @@
 body {
   color: var(--foreground); /* Use custom text color */
   background: var(--background); /* Use custom background color */
-  font-family: 'Inter', Arial, Helvetica, sans-serif; /* Enhanced font stack */
+  font-family: 'Inter', Arial, sans-serif, Helvetica; /* Enhanced font stack */
   line-height: 1.6; /* Improved line spacing for readability */
   letter-spacing: 0.015em; /* Slightly wider letter spacing for readability */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition between light/dark mode */
+  overflow-x: hidden;
 }
 
 /* Utility classes for better control */
